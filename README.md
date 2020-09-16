@@ -1,2 +1,4 @@
 # school_cplusplus
-finish C++ assignments from school
+finished C++ assignments from school
+
+There are project and objectives completed in an academic college class to demonstrate knowledge and skills learned in C++
