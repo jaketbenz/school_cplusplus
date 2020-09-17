@@ -1,0 +1,79 @@
+Did you choose short or long for your numerator/denominator type? Why is yours
+the best choice?
+    Long was chosen, as it will benifit with more width of bits. If used on
+    older machines, it will work but take longer
+
+How can you keep the denominator positive? What happens to the numerator? Where
+should this code be placed?
+    If the denominator is negative, it turns the entire number into a negative,
+    turning the denominator into positive and numerator into negative. Placed in
+    the class header, in the output to correct values before they're given to
+    the user.  
+
+Do you have any private method(s)? If so, what does it/them do? (Hint: *ahem*
+reduce() *ahem* normalize() *ahem*)
+    No private methods were used or created. *confused*
+
+What type of value is returned from your comparison/testing functions? (Hint: In
+what context are they likely to be used? What [data] type would be appropriate
+there?)
+    For comparison, it is a bool value loop as it is either true or false for a
+    comparision. 
+
+How many lines are in your less and equal functions? (I bet there aren't
+many...)
+    8 total with readability spacing, 2 to 4 without.
+
+Is there any original code in your methods for greater, greater_equal,
+less_equal, and/or not_equal? (Hint: Maybe they just re-use some other functions
+you've already written in a clever way?)
+    Equal and less than are present. They're seperate functions.
+
+Do your math functions change the calling object or their [single] argument?
+Should they? (Hint: What about when you code x + y — does the compiler change
+either x or y?) How do you specify such situations to the compiler so it can
+better handle/enforce your decision?
+    No, as there is a declared const for both inputs. They should not as that
+    may impact furthur calls of said object for other functions.
+
+How many lines are in your math functions? (Hint: You are constructing a new
+object to return to the caller...)
+    8 lines per math function. Four math functions, roughly 32 lines of code.
+
+Does your input method prompt the user before reading the rational number? Why
+should it not?
+    Yes, it should not because it may take the prompt into the function? (this
+    one I didn't fully understand). I assume this is also for below, as it is
+    buffered?
+
+Does your output method print anything besides the rational number (in proper
+notation, of course) — even an endl? Why should it not?
+    It does not, no endl. Having endl may cause errors as its buffered.
+
+Why do/can you only have one mutator? Don't we normally have a separate mutator
+method for each data member of the class? (Hint: Does this relate to the
+thought-provoking question above? What other things might also influence this
+decision? What might happen if the programmer could change the numerator but not
+the denominator? Vice versa? Would this complicate your validation rules?)
+    Having more than one mutator may complicate returning proper values and
+    functions as you will have to expand your code base to handle both mutators
+
+Should any of your methods be inlined for speed? Which ones will you inline? How
+does one do this for a class method?
+    Yes and no. Inlining functions that are small may speed up but also due to
+    the nature of current compilers, there may be no need to. Most private
+    functions are inlined. Anything smaller than 10 lines / branches, should be
+    inlined.
+
+If you were to end up inline'ing all of your methods, would you still need an
+implementation file for your library? Why/Why not?
+    No, if you inline most or all methods in your headerfile, they're done
+    before the main is ran and compiled to pull from.
+
+Do the accessors, output, or math operation methods alter the calling object in
+any way? How do you specify such a situation to the compiler so it can better
+handle/enforce your decision?
+
+What needs to be in your constructor initializer lists? Is there a certain order
+to the list? Does it go on the prototype or the definition?
+    

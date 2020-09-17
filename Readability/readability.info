@@ -1,0 +1,18 @@
+Programmer Name: 
+    Jake Benz
+
+Class:
+    CSC 121-002
+
+Program Title & Type:
+    Project: Say What?!
+
+Levels Attempted:
+    Level 4: Main
+    Level 2: Choose one of three indices
+    Level 3: Allow user to choose file
+  
+    Total Level: 9
+
+Program Description:
+    Program allows user to import a file of their choosing to calculate a readability index. If choosing a Powers Index, it only reads the first 100 words, other indexes read entire file based on syllables, words, and sentences
